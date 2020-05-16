@@ -9,9 +9,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-      html {
-        font-size: 1vw;
+      @media(max-width: 600px) {
+        html {
+          font-size: 0.8rem;
+        }
+        .display-2{
+          font-size: 10vw !important;
+        }
+        .display-4{
+          font-size: 5vw;
+        }
+        .card-title{
+          font-size: 2vw;
+        }
+        /* .d-md-block{
+          display: block !important
+        } */
       }
+    
     </style>
     <title>Dr Tisha Jacob</title>
   </head>
@@ -37,7 +52,7 @@
         </div>
         <div class="card-body">
           <div class="row">
-            <div class="col">
+            <div class="col-lg">
               <h3 class="card-title">Hello! I'm Dr. Tisha Rachel Jacob</h5>
               <hr class="my-4">
               <div class="media">
@@ -49,7 +64,8 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <!-- <div class="w-100 d-none d-md-block"></div> -->
+            <div class="col-lg">
               <div class="card" >
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item text-center lead">Areas of Expertise</li>
