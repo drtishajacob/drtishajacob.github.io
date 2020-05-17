@@ -10,9 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
       @media(max-width: 1100px) {
-        /* html {
-          font-size: 0.8rem;
-        } */
         .display-2{
           font-size: 10vw;
         }
@@ -29,18 +26,35 @@
   </head>
 
   <body style="background-color: #FAFBFC;">
-    <nav class="navbar fixed-top" style="background-color:#05386B;border-radius: 0.25rem;">
-      <div>
+
+    <div class="navbar-brand sticky-top navbar-dark navbar-expand-lg" style="background-color:#05386B;border-radius: 0.25rem;margin-top: 0px; width: 100%;padding: 1rem;">
       <h1 class="display-4" style="color: #FFFFFF;"><i class="fa fa-heartbeat"></i> Dr. Tisha Rachel Jacob MD(Psy), DNB</h1>
-      <p class="lead title" style="color: #FFFFFF;">Psychiatrist</p>
+      <span class="lead title" style="color: #FFFFFF; margin-right: 5rem;">Psychiatrist</span>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Educational Videos</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-   <div style="height:10rem;"></div>
+    </div>
+
    <div class="container-fluid">
       <div class="jumbotron" style="background-color: #FFFFFF;" >
         <h1 class="display-2">Happiness</h1>
         <p class="lead">There Are One Million Ways</br> to reach It!</p>
-        <a class="btn" style="background-color: #FFB9B3; color: #FFFFFF;" href="#" role="button">Make an Appointment</a>
+        <a class="btn" style="background-color: #FFB9B3; color: #FFFFFF;" href="https://www.lybrate.com/consult-privately/doctor/dr-tisha-jacob-psychiatrist?lpt=PS-PPV" role="button">Make an Appointment</a>
       </div>
 
       <div class="card" style="margin-bottom: 1rem;">
@@ -89,7 +103,7 @@
           </span>
         </div>
       </div>
-    </div>
+      <div style="height: 2rem;"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
